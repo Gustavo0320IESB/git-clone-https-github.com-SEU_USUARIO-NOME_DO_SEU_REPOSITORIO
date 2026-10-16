@@ -3,9 +3,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 
-import DespesasRecentes from './screens/DespesasRecentes';
-import TodasDespesas from './screens/TodasDespesas';
-import GerenciarDespesa from './screens/GerenciarDespesas';
+import DespesasRecentes from './src/screens/DespesasRecentes';
+import TodasDespesas from './src/screens/TodasDespesas';
+import GerenciarDespesa from './src/screens/GerenciarDespesas';
 import IconButton from './components/IconButton';
 
 const Stack = createNativeStackNavigator();
